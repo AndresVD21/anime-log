@@ -15,7 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@anime-log/anime-log": ["libs/anime-log/src/index.ts"]
+      "@anime-log/anime-log": ["libs/anime-log/src/index.ts"],
+      "@anime-log/data": ["libs/data/src/index.ts"],
+      "@anime-log/data-access": ["libs/data-access/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
